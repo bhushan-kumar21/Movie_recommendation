@@ -7,8 +7,8 @@ from sklearn.metrics.pairwise import linear_kernel
 from ast import literal_eval
 
 
-x1=pd.read_csv(r"C:\Users\user\OneDrive\Desktop\data science\ML_rsume_projects\tmdb_5000_credits.csv")
-x2=pd.read_csv(r"C:\Users\user\OneDrive\Desktop\data science\ML_rsume_projects\tmdb_5000_movies.csv")
+x1=pd.read_csv(r"set the datasetpath\tmdb_5000_credits.csv")
+x2=pd.read_csv(r"set the datasetpath\tmdb_5000_movies.csv")
 
 
 #merge the two dataframes
